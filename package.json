@@ -1,0 +1,28 @@
+{
+  "name": "websockets-chat-starter",
+  "version": "1.0.0",
+  "description": "A simple websockets chat server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJKaufman/websockets-chat-starter.git"
+  },
+  "author": "Aidan Kaufman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJKaufman/websockets-chat-starter/issues"
+  },
+  "homepage": "https://github.com/AJKaufman/websockets-chat-starter#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.2"
+  }
+}
